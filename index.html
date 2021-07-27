@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Box Task</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>Color Box Generator</h1>
+    <div class="task">
+        <select name="" id="selectColor">
+            <option value="" selected disabled hidden> --select color--</option>
+            <option class="royalblue" name="colors" >royalblue</option>
+            <option class="green" name="colors">Green</option>
+            <option class="yellow" name="colors">Yellowgreen</option>
+            <option class="gray" name="colors">Gray</option>
+            <option class="purple" name="colors">Purple</option>
+            <option class="brown" name="colors">Brown</option>
+            
+        </select>    
+        <select name="" id="selectWidth">
+            <option value="" selected disabled hidden>--select width--</option>
+            <option>50px</option>
+            <option>80px</option>
+            <option>100px</option>
+            <option>120px</option>
+            <option>150px</option>
+            <option>180px</option>
+        </select>
+        <select name="" id="selectHeight">
+            <option value="" selected disabled hidden>--select height--</option>
+            <option>50px</option>
+            <option >80px</option>
+             <option>100px</option>
+            <option >120px</option>
+            <option >150px</option>
+            <option>200px</option>
+        </select>
+    </div> 
+    <div class="btn">
+        <button onclick="generateBox()">Generate</button>  
+        <div id="box" display="none"></div>
+    </div>
+   <footer>Created by Xiaohua 2021</footer>
+</body>
+
+</html>
