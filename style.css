@@ -2,10 +2,15 @@ h1{
     text-align:center;
     margin:6% 0;
     color: #005f99;
+    font-size:3rem;
 }
 .task{
- 
-    text-align:center
+    text-align:center;
+    font-size:2rem;
+}
+select{
+    height:2rem;
+    font-size:1.5rem;
 }
 .royalblue{
     background-color: royalblue;
@@ -35,17 +40,17 @@ h1{
 .btn{
     margin:auto;
     text-align: center;
-    margin-top:5%;
+    margin-top:10%;
 }
 button{
-    font-size: 1.2em;
+    font-size: 1.5em;
     border-radius: 5px;
     background-color: #0278ae;
     text-decoration: none;
     border:none;
     color:white;
-    padding: 0 12px;
-    height: 35px;
+    padding: 0 1.6rem;
+    height: 3rem;
 }
 button:hover {
     background-color: #318fb5;
@@ -61,4 +66,5 @@ button:hover {
 footer{
     text-align:center;
     margin:5% 0;
+    font-size:1.3rem;
 }
